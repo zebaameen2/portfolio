@@ -1,7 +1,7 @@
 
 import about from '../assets/about.png'
 
-const About = ({darkMode}) => {
+const About = ({ darkMode }) => {
   return (
     <section id="about" className={`min-h-screen overflow-hidden flex 
    items-center  justify-center px-4 sm:px-6 `}>
@@ -51,8 +51,7 @@ const About = ({darkMode}) => {
           <p className={`text-sm sm:text-base lg:text-lg xl:text-xl  mb-6 sm:mb-8 leading-relaxed bg-linear-to-r  from-orange-900/10 to-orange-900/5 p-4 sm:p-6  rounded-xl sm:rounded-2xl backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}
             data-aos='fade-up'
             data-aos-delay='500'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum iusto illum quae magni exercitationem adipisci, nostrum amet cupiditate odio perferendis ullam deleniti obcaecati ratione quasi.
-          </p>
+          BBA student at Jamia Millia Islamia with a science backgroundPCB) and a record of academic excellence as former school topper. Recognized for exceptional communication skills and leadership. Also passionate about technology and now actively building my skills in  Web Development. </p>
 
           <div className='flex flex-wrap justify-center 
           lg:justify-start gap-4  sm:gap-6 lg:gap-8 mb-6  sm:mb-8 '>
@@ -60,11 +59,14 @@ const About = ({darkMode}) => {
             <div claasName='text-center'
               data-aos='zoom-in '
               data-aos-delay=' 600 '>
-              <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400 '>5+</div>
+              <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-400 '>
+               5+
+
+              </div>
 
               <div className={`text-xs sm:text-sm lg:text-base 
                 ${darkMode ? 'text-gray-300' : 'text-gray-600 '}`}>
-                Education
+                Skills
               </div>
 
 
@@ -105,12 +107,16 @@ const About = ({darkMode}) => {
 
             </div>
           </div>
-          <button className={`w-full sm:w-auto border-2
+          <button
+            onClick={() => {
+              document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+            }}
+            className={`w-full sm:w-auto border-2
             border-orange-500 inline-flex items-center 
                                   justify-center  
                                 py-3 px-4 sm:px-6  hover:shadow-[0_0_40px_rgb(255,165,0,0.7)]  rounded-full text-base sm:text-lg font-semibold  transition-all duration-300 transform ${darkMode ? 'text-white bg-orange-500/10 ' : 'text-gray-800 bg-white/90'} `}
-                                data-aos='fade-up'
-                                data-aos-delay='800 '>
+            data-aos='fade-up'
+            data-aos-delay='800 '>
             Learn More
 
           </button>
