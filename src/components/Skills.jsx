@@ -154,9 +154,9 @@ import vite from '../assets/vite.png';
 
 const Skills = ({ darkMode }) => {
   const skills = [
-    { name: 'Laravel', icon: laravel, level: 95, color: 'from-orange-500 to-amber-500' },
+    { name: 'Javascript', icon: laravel, level: 95, color: 'from-orange-500 to-amber-500' },
     { name: 'Framer Motion', icon: framerMotion, level: 95, color: 'from-blue-500 to-cyan-500' },
-    { name: 'Vue', icon: vue, level: 90, color: 'from-cyan-500 to-blue-500' },
+    { name: 'HTML', icon: vue, level: 90, color: 'from-cyan-500 to-blue-500' },
     { name: 'React', icon: react, level: 88, color: 'from-yellow-500 to-amber-500' },
     { name: 'Tailwind CSS', icon: tailwind, level: 92, color: 'from-teal-500 to-cyan-500' },
     { name: 'Firebase', icon: firebase, level: 92, color: 'from-green-500 to-emerald-500' },
@@ -203,8 +203,8 @@ const Skills = ({ darkMode }) => {
         </div>
 
 
-        
-                <br /> <br /><br /> <br />
+
+        <br /> <br /><br /> <br />
 
         {/* ===== MARQUEE ===== */}
         <div className="relative w-full overflow-hidden">
